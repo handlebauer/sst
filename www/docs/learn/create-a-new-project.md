@@ -94,7 +94,7 @@ Or if you are picking your own, make sure to use a stage name that is specific t
 The `sst dev` command, as you might've guessed, deploys to your AWS account. It does a couple of interesting things:
 
 1. Bootstraps your AWS account for SST. This only needs to be done once per account.
-1. Setups up the [Live Lambda Dev environment](../live-lambda-development.md).
+1. Sets up the [Live Lambda Dev environment](../live-lambda-development.md).
 1. Deploys your app to AWS.
 1. Runs a local server to:
    1. Proxy Lambda requests to your local machine.
